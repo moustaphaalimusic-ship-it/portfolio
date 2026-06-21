@@ -1,0 +1,71 @@
+/app/applet
+├── Additional work
+|  ├── Carprogini congratulations.jpg
+|  ├── Ciao congratulations.jpg
+|  ├── Hamco post.jpg
+|  ├── Helmy congratulations.jpg
+|  ├── Magic congratulations.jpg
+|  ├── Sham El Nessim.jpg
+|  └── Thumbs.db
+├── Ai visuals
+|  ├── Ciao account
+|  |  ├── Cover.jpg
+|  |  └── Visuals
+|  |     └── Visual 1
+|  |        └── Artboard 2.jpg
+|  └── Toyota account
+|     ├── Cover.jpg
+|     └── Post 2.jpg
+├── Campaigns
+|  ├── Nexoura Campaigns
+|  |  ├── Campaign 1
+|  |  |  ├── Artboard 1.jpg
+|  |  |  ├── Artboard 2.jpg
+|  |  |  ├── Artboard 3.jpg
+|  |  |  ├── Artboard 4.jpg
+|  |  |  ├── Artboard.jpg
+|  |  |  └── Thumbs.db
+|  |  └── Campaign 2
+|  |     ├── Artboard 1.jpg
+|  |     ├── Artboard 2.jpg
+|  |     ├── Artboard 3.jpg
+|  |     ├── Artboard 4.jpg
+|  |     ├── Artboard 5.jpg
+|  |     └── Thumbs.db
+|  └── Twitch Campaign
+|     ├── Thumbs.db
+|     ├── Twitch Malt Drink Green Apple.jpg
+|     ├── Twitch Malt Drink Peach.jpg
+|     ├── Twitch Malt Drink Pineapple.jpg
+|     ├── Twitch Malt Drink Pomegranate.jpg
+|     └── Twitch-artboard.jpg
+├── assets
+├── index.html
+├── metadata.json
+├── package-lock.json
+├── package.json
+├── src
+|  ├── App.tsx
+|  ├── components
+|  |  ├── About.tsx
+|  |  ├── AiVisualsSection.tsx
+|  |  ├── Contact.tsx
+|  |  ├── ExperienceSnapshot.tsx
+|  |  ├── Footer.tsx
+|  |  ├── Hero.tsx
+|  |  ├── Navbar.tsx
+|  |  ├── Skills.tsx
+|  |  ├── Videos.tsx
+|  |  ├── WhatIDo.tsx
+|  |  └── Work.tsx
+|  ├── data.ts
+|  ├── index.css
+|  ├── main.tsx
+|  └── types.ts
+├── tree.txt
+├── tsconfig.json
+└── vite.config.ts
+
+directory: 670 file: 8863
+
+ignored: directory (43)
