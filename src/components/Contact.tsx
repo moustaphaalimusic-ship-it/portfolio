@@ -1,6 +1,15 @@
 import { motion } from "motion/react";
 import React, { useState } from "react";
-import { Mail, Instagram, Facebook, MessageSquare, CheckCircle2, AlertCircle } from "lucide-react";
+import {
+  Mail,
+  Instagram,
+  Facebook,
+  MessageSquare,
+  CheckCircle2,
+  AlertCircle,
+} from "lucide-react";
+
+import { FaLinkedinIn, FaBehance } from "react-icons/fa";
 
 export function Contact() {
   const [status, setStatus] = useState<'idle' | 'submitting' | 'success' | 'error'>('idle');
@@ -75,27 +84,53 @@ export function Contact() {
               </div>
 
               <div className="flex gap-4 mt-12">
-                <motion.a
-                  href="https://instagram.com/moustaphaali_"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  whileHover={{ scale: 1.1, rotate: 5 }}
-                  className="w-12 h-12 rounded-2xl bg-white/5 flex items-center justify-center text-zinc-400 hover:text-white hover:bg-white/10 cursor-pointer transition-all border border-white/5"
-                  aria-label="Instagram"
-                >
-                  <Instagram className="w-6 h-6" />
-                </motion.a>
-                <motion.a
-                  href="https://www.facebook.com/moustaphaalimusic"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  whileHover={{ scale: 1.1, rotate: 5 }}
-                  className="w-12 h-12 rounded-2xl bg-white/5 flex items-center justify-center text-zinc-400 hover:text-white hover:bg-white/10 cursor-pointer transition-all border border-white/5"
-                  aria-label="Facebook"
-                >
-                  <Facebook className="w-6 h-6" />
-                </motion.a>
-              </div>
+              
+					<motion.a
+						href="https://www.behance.net/moustaphaalii"
+						target="_blank"
+						rel="noopener noreferrer"
+						whileHover={{ scale: 1.1, rotate: 5 }}
+						className="w-12 h-12 rounded-2xl bg-white/5 flex items-center justify-center text-zinc-400 hover:text-white hover:bg-white/10 cursor-pointer transition-all border border-white/5"
+						aria-label="Behance"
+					  >
+						<FaBehance className="w-5 h-5" />
+					  </motion.a>
+
+					  <motion.a
+						href="https://www.linkedin.com/in/moustaphaa/"
+						target="_blank"
+						rel="noopener noreferrer"
+						whileHover={{ scale: 1.1, rotate: 5 }}
+						className="w-12 h-12 rounded-2xl bg-white/5 flex items-center justify-center text-zinc-400 hover:text-white hover:bg-white/10 cursor-pointer transition-all border border-white/5"
+						aria-label="LinkedIn"
+					  >
+						<FaLinkedinIn className="w-5 h-5" />
+					  </motion.a>
+              
+				  <motion.a
+					href="https://instagram.com/moustaphaali_"
+					target="_blank"
+					rel="noopener noreferrer"
+					whileHover={{ scale: 1.1, rotate: 5 }}
+					className="w-12 h-12 rounded-2xl bg-white/5 flex items-center justify-center text-zinc-400 hover:text-white hover:bg-white/10 cursor-pointer transition-all border border-white/5"
+					aria-label="Instagram"
+				  >
+					<Instagram className="w-6 h-6" />
+				  </motion.a>
+
+				  <motion.a
+					href="https://www.facebook.com/moustaphaalimusic"
+					target="_blank"
+					rel="noopener noreferrer"
+					whileHover={{ scale: 1.1, rotate: 5 }}
+					className="w-12 h-12 rounded-2xl bg-white/5 flex items-center justify-center text-zinc-400 hover:text-white hover:bg-white/10 cursor-pointer transition-all border border-white/5"
+					aria-label="Facebook"
+				  >
+					<Facebook className="w-6 h-6" />
+				  </motion.a>
+
+				  
+				</div>
             </div>
 
             <div className="bg-black/40 rounded-3xl p-8 border border-white/5">
